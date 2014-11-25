@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">My Application</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    <string name="login_button">Login</string>
+    <string name="email_username">Username (Email)</string>
+    <string name="password">Password</string>
+    <string name="json_pass">pass</string>
+    <string name="json_user">user</string>
+    <string name="title_activity_sign_up">sign_up</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="url">http://104.131.82.38:3000/login</string>
+    <string name="login_ret"></string>
+    <string name="title_activity_home">Home</string>
+    <string name="greeting">Test Homepage</string>
+    <string name="sign_up">Sign up</string>
+
+</resources>
