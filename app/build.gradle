@@ -13,14 +13,21 @@ android {
     }
     buildTypes {
         release {
-            runProguard false
+            minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
 }
 
+repositories{
+    mavenCentral()
+}
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     // You must install or update the Support Repository through the SDK manager to use this dependency.
     compile 'com.android.support:support-v4:19.+'
+    compile 'com.mcxiaoke.volley:library:1.0.+'
+    compile 'com.google.code.gson:gson:2.2.+'
+    compile 'org.apache.httpcomponents:httpcore:4.3.3'
+    compile 'org.apache.httpcomponents:httpmime:4.3.6'
 }
